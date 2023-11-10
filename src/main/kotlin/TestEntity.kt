@@ -3,9 +3,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
-public class TestEntity {
-
-    @Id @GeneratedValue
-    private Integer id;
-
+class TestEntity {
+    @Id
+    @GeneratedValue
+    val id:Integer?=null
 }
